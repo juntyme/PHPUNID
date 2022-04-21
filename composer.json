@@ -1,0 +1,15 @@
+{
+    "name": "user/php-unid",
+    "autoload": {
+        "psr-4": {
+            "User\\PhpUnid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas Ferreira",
+            "email": "suporte@yesflex.com.br"
+        }
+    ],
+    "require": {}
+}
