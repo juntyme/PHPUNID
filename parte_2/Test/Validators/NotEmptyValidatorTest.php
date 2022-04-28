@@ -7,6 +7,7 @@ use PHPUnit\Framework\TestCase;
 class NotEmptyValidatorTest extends TestCase
 {
     /**
+     * @test
      * @dataProvider valueProvider
      */
     public function testIsValid($value, $expectedResult)
@@ -28,7 +29,7 @@ class NotEmptyValidatorTest extends TestCase
     public function valueProvider()
     {
         return [
-            'souldBeValidWhenValueIsNotEmpty' => ['value' => 'foo', 'expectedResul' => true],
+            'sould_BeValid_When_ValueIsNotEmpty' => ['value' => 'foo', 'expectedResul' => true],
             'souldNotBeValidWhenValueIsNotEmpty' => ['value' => '', 'expectedResul' => false]
         ];
     }
