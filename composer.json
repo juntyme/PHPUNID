@@ -11,5 +11,7 @@
             "email": "suporte@yesflex.com.br"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
